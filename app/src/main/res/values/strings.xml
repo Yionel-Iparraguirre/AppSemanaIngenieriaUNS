@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SemanaIngenieria</string>
+    <string name="agenda">Agenda</string>
+    <string name="competencias">Competencias</string>
+    <string name="seminarios">Seminarios</string>
+    <string name="ubicaciones">Ubicaciones</string>
+</resources>

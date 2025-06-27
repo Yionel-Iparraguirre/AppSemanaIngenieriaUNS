@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewSeminarios"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uns"
+    android:padding="13dp">
+
+    <LinearLayout
+        android:id="@+id/seminariosContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Encabezado -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="16dp">
+
+            <!-- Ícono del encabezado -->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_seminar"
+                android:contentDescription="Ícono seminarios"
+                android:layout_marginEnd="8dp" />
+
+            <!-- Título principal del encabezado -->
+            <TextView
+                android:id="@+id/seminariosTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEMINARIOS"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPantoneRojo" />
+        </LinearLayout>
+
+        <!-- Aquí se añadirán los seminarios dinámicamente -->
+        <LinearLayout
+            android:id="@+id/seminariosListContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+</ScrollView>
